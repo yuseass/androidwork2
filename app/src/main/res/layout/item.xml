@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:descendantFocusability="blocksDescendants">
+
+    <TextView
+            android:id="@+id/id"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:text="ID" />
+
+    <View
+            android:layout_width="1.5dip"
+            android:layout_height="fill_parent"
+            android:background="#B4B3B3"/>
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:gravity="center"
+            android:text="姓名" />
+
+    <View
+            android:layout_width="1.5dip"
+            android:layout_height="fill_parent"
+            android:background="#B4B3B3"/>
+
+    <TextView
+            android:id="@+id/age"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dip"
+            android:textColor="#000000"
+            android:paddingTop="10dip"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="年龄" />
+
+    <View
+            android:layout_width="1.5dip"
+            android:layout_height="fill_parent"
+            android:background="#B4B3B3"/>
+
+    <TextView
+            android:id="@+id/height"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="身高" />
+
+    <View
+            android:layout_width="1.5dip"
+            android:layout_height="fill_parent"
+            android:background="#B4B3B3"/>
+
+</LinearLayout>
